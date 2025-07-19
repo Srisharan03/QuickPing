@@ -44,7 +44,7 @@ const LoginPage = () => {
                 {/* CHANGE: Completely restyled input. */}
                 <input
                   type="email"
-                  className="w-full pl-10 pr-3 py-2 rounded-lg border border-gray-300
+                  className="w-full pl-10 pr-3 py-2 rounded-lg border border-gray-300 bg-white
                              focus:outline-none focus:ring-2 focus:ring-gray-400
                              font-sans text-gray-800"
                   placeholder="you@example.com"
@@ -64,7 +64,7 @@ const LoginPage = () => {
                 {/* CHANGE: Completely restyled input. */}
                 <input
                   type={showPassword ? "text" : "password"}
-                  className="w-full pl-10 pr-10 py-2 rounded-lg border border-gray-300
+                  className="w-full pl-10 pr-10 py-2 rounded-lg border border-gray-300 bg-white
                              focus:outline-none focus:ring-2 focus:ring-gray-400
                              font-sans text-gray-800"
                   placeholder="••••••••"
